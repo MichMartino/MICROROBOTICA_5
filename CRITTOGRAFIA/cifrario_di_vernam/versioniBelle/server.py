@@ -12,6 +12,7 @@ DIZVERN = {
 }
 
 DIM = len(DIZVERN)
+#Dizionario invertito per decodificare
 DIZINV = {v: k for k, v in DIZVERN.items()}
 CHIAVE = "VIVA LA QUINTA A ROBOTICA"
 
@@ -37,7 +38,6 @@ def main():
     while True:
         risposta, address = s.recvfrom(BUFFER)
         ris = risposta.decode().upper()
-        
 
         deci = codificaDecodifica(ris, CHIAVE, False)
         

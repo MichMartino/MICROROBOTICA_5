@@ -1,0 +1,38 @@
+Cosa deduco da ogni grafico:
+
+ENGINE_POWER:
+Deduco dal primo grafico del primo tipo che di fiat 500 ci sono 3 motorizzazioni principali, quella con 70kw è la più popolare (Questa popolarità influenza infatti tutti i grafici del tipo con engine_power) Un allestimento però è decisamente più acquistato di altri (lounge)
+Per quanto riguarda l'età delle auto le più vendute sono quelle della motorizzazione 70kw con età intorno ai 4000 days
+La maggior parte delle 500 sono vendute con dei kilometraggi 10/20 mila ai 50, poi c'è un piccolo taglio per un attimo e si riprende da 70 mila fino a 180mila circa, è raro trovare 500 in vendita con più di 200k di km, per quanto riguarda le altre motorizzazioni non solo sono più rare, ma sono tutte 100km < auto < 150km
+Le 500 in vendite hanno per la maggior parte una latitudine maggiore di 40
+La maggior parte dei prezzi li troviamo intorno ai 4000/5000 euro, al di sopra ce ne sono ma sono minori, in confronto
+
+AGE_IN_DAYS:
+Come anche dedotto prima, la maggior parte delle 500 in vendita hanno più di 4000 giorni (O giù di lì) della motorizzazione 70kw
+L'allestimento lounge è quello più in vendita, con 500 sia abbastanza nuove, che con l'età già citata prima, 4000 days
+Giustamente in relazione ai km una macchina è più vecchia o più nuova, ma ci sono alcune auto anche relativamente nuove con parecchi kilometri
+Si può notare come negli anni i modelli variano in latitudine, con la maggioranza di quelle vendute dai 44 ai 46 e più
+Il prezzo ovviamente è collegato anche con l'età, più l'auto è vecchia meno la si vorrà comprare, con la maggioranza che hanno un prezzo simile ci sono poche eccezioni
+
+KM:
+Le 500 vendute hanno per lo più kilometraggi simili, che si concentrano fino ad arrivare intorno ai 170k, sempre con le 3 motorizzazioni di cui la 70 è la più in vendità
+Le 500 in vendita hanno i propri km in relazione con l'età, più è vecchia più ha kilometri
+C'è una grande offerta di 500 lounge con pochi o tanti kilometri, mentre c'è una piccola parte di 500 pop "quasi nuove"
+La lat nei kilometraggi è molto dispersa, ma una gran parte si trova intorno ai 100k - 150k dove la latitudine sembra essere maggiore
+Meno kilometri hanno le 500 più il prezzo è alto, però avere più kilometri non significa che costa di meno!
+
+LAT:
+Per le varie motorizzazioni la lat rimane perlomeno la stessa, diferisce da motorizzazione a motorizzazione (Inoltre anche nella stessa ci sono state diverse versioni di latitudine)
+Viene reso più visibile come più è vecchia una 500 più la sua lat è maggiore, o èuò esserlo
+C'è una relazione simile in questo punto, come al punto precedente, per quanto sembri che la lat più prominente sia intorno al valore 42 e 46
+Visto che c'è maggioranza di lounge in altri campi non mi sorprende che anche quì i numeri di casi di latitudine è prevalentemente di lounge, intorno ai valori già accenati (da 42 a 46)
+i prezzi da 4000 a 6000 hanno una maggioranza di lat che si concentra da 44 a 46, con alcuni casi rari di prezzi più alti con latitudine simile
+
+Price:
+Il prezzo ha una sua media ma ci sono diversi esemplari anche parecchio costosi (Motorizzazione 70kw) le altre hanno meno disponibilità
+La maggior parte di 500 con età simile (sui 4000) hanno anche prezzo simile (sui 5000), con poche ma non pochissime che vanno anche a costare sui diecimila (Esemplari più belli e ben tenuti probabilmente)
+all'aumentare dei km non per forza il prezzo aumenta, ci sono diverse macchine con kilometri bassi che costano parecchio
+Le diverse lat hanno prezzi che stanno per la maggior parte da quelle che sono maggiormente in vendita, con alcune che si alzano di prezzo (Probabilmente riferendosi ad altri tratti come km basso)
+Lounge è il modello di 500 più presente, con la maggior parte dei prezzi intorno alla media, ma anche pop e sport sono disponibili a prezzi contenuti
+
+Il modello Star dev'essere un modello molto raro, perché difficile da individuare nei grafici (un'esemplare o pochi)

@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+    <title>trova_Prezzo</title>
+</head>
+<body>
+    <strong>Benvenuto!</strong>
+
+    <form method="POST">
+
+            <div>
+                <label for="engine_power">Kw motore</label>
+                <input type="number" id="engine_power" name="engine_power" required>
+            
+                <label for="age_in_days">Età in giorni</label>
+                <input type="number" id="age_in_days" name="age_in_days" required>
+                
+                <label for="km">Km della 500</label>
+                <input type="number" id="km" name="km" required>
+                
+                <label for="previous_owners">Numero proprietari</label>
+                <input type="number" id="previous_owners" name="previous_owners" required>
+                
+                <label for="lat">Latitudine luogo vendita</label>
+                <input type="number" step="any" id="lat" name="lat" required>
+                
+                <label for="lon">Longitudine luogo vendita</label>
+                <input type="number" step="any" id="lon" name="lon" required>
+                
+                <label for="model">Allestimento 500</label>
+                <input type="text" id="model" name="model" required>
+                
+                <label for="transmission">Tipo trasmissione</label>
+                <input type="text" id="transmission" name="transmission" required>
+            </div>
+
+            <div>
+                <button type="submit">Invia dati</button>
+            </div>
+
+    </form>
+
+    <div name="visualizzaPrezzo">
+        {% if prezzo %}
+        <p>Prezzo stimato: {{ prezzo }} €</p>
+        {% endif %}
+    </div>
+    
+</body>
+</html>
